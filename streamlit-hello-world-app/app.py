@@ -7,7 +7,7 @@ st.set_page_config(page_title="DWH Table Deployment Helper", layout="wide")
 
 st.title("Data Warehouse Table Deployment Helper")
 
-# Initialize session state for SQL generation
+# Initialize session state for SQL generation...
 if 'sql_generated' not in st.session_state:
     st.session_state.sql_generated = False
     st.session_state.all_sql = ""
