@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 import io
 
-st.set_page_config(page_title="DWH Table Deployment Helper", layout="wide")
+st.set_page_config(page_title="DWH Table Deployment Helper v2", layout="wide")
 
 st.title("Data Warehouse Table Deployment Helper")
 
